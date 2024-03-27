@@ -26,7 +26,6 @@ void loop() {
   }
   
   if (isTriggered) {
-    // Activate alarm
     tone(buzzerPin, 1000); 
     digitalWrite(armedLedPin, LOW);
     for (int i = 0; i < 3; i++) {
